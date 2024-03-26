@@ -1,38 +1,184 @@
-.App {
-  text-align: center;
+.app {
+  margin-top: 20px;
+  margin-left: 120px;
+  margin-right: 120px;
+background-color: "D3D3D3";
+}
+.mainContainer {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.adminBackgroung {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.resultContainer,
+.historyItem {
+  flex-direction: row;
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.historyContainer {
+  flex-direction: column;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  flex-grow: 5;
+  justify-content: flex-start;
+}
+
+.buttonContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 260px;
 }
 
-.App-link {
-  color: #61dafb;
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputContainer>.errorLabel {
+  color: red;
+  font-size: 12px;
+}
+
+.inputBox {
+  height: 48px;
+  width: 400px;
+  font-size: large;
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding-left: 8px;
+}
+
+.stateCard {
+  border-radius: 20px;
+  background: yellow;
+  margin: 30px;
+  width:220px; 
+  height:160px
+}
+.stateCardContent{
+  margin: 30px;
+}
+
+.welcomeHeading {
+  color: blue;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+.dropDownStyle {
+  width: 397px;
+  height: 47px;
+  border-radius: 5px;
+}
+
+.lableStyle {
+  margin-bottom: 10px;
+}
+.image-upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.box-decoration {
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  width: 397px;
+  height: 47px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-display-before {
+  height: 150px;
+    width: 150px;
+    border-radius: 5%;
+}
+
+.img-profile {
+  height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.box-file {
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  width: 397px;
+  height: 100%;
+  min-height: 47px  ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutCardStyle {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+  height: 100%;
+ }
+
+ .fullCardStyle {
+  margin-bottom: 50px;
+  padding: 30px;
+  height: 100%;
+ }
+
+ .publicmaincontainer {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 100%;
+}
+
+.footercontainer {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  width: 100%;
+}
+.logincard {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding: 50px;
+  width: 500px;
+  height: 450px;
 }
