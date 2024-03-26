@@ -1,15 +1,38 @@
 {
-  "name": "nodetest",
+  "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repository contains server and client code.",
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "TZ=UTC nodemon --ignore summaryclient index.js"
+    "start": "TZ=UTC nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Anuj Verma",
+  "license": "",
   "dependencies": {
-    "express": "^4.19.1",
-    "nodemon": "^3.1.0"
+    "async-middleware": "~1.2.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "config": "^3.3.11",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "~4.18.2",
+    "helmet": "^7.1.0",
+    "install": "^0.13.0",
+    "joi": "^17.12.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.2",
+    "nocache": "^4.0.0",
+    "npm": "^10.5.0",
+    "password-hash": "^1.2.2",
+    "redact-pii": "^3.4.0",
+    "sequelize": "^6.37.1",
+    "winston": "^3.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "~3.0.3",
+    "prettier": "~3.2.4"
   }
 }

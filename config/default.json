@@ -1,0 +1,27 @@
+{
+  "port": 4000,
+  "defaultCountry": "us",
+  "apiVersionPosition": "2",
+  "supportedApiVersion": "1",
+  "privatekey": "169SaUXluzNsutiAGFd3k8gnlQ7ZK53D",
+  "mysqlConnection": {
+    "us": {
+      "user": "admin",
+      "password": "Tfi21anujTfi",
+      "database": "tyidb",
+      "configuration": {
+        "host": "tyidb.cj6gke2a8v40.ap-south-1.rds.amazonaws.com",
+        "dialect": "mysql",
+        "define": {
+          "timestamps": false
+        },
+        "pool": {
+          "max": "5",
+          "min": 0,
+          "acquire": 30000,
+          "idle": 10000
+        }
+      }
+    }
+  }
+}
